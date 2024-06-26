@@ -386,3 +386,7 @@ hr{
 .nickname{
   margin: 0 0 0 0;
 }
+.colorscripter-code {
+  margin: 0 0 0 15%; 
+  width: 70%;
+}
