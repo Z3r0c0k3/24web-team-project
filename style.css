@@ -28,7 +28,7 @@ nav {
 }
 .title {
   flex-grow: 0;
-  margin: 0.6% 61.4% 0.6% 3%;
+  margin: 0.6% 59.4% 0.6% 2.5%;
   font-family: April16th-Promise;
   font-size: 2rem;
   font-weight: normal;
@@ -38,6 +38,18 @@ nav {
   letter-spacing: normal;
   text-align: center;
   color: #000;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
 }
 .link_home {
   flex-grow: 0;
@@ -78,7 +90,7 @@ nav {
   text-align: center;
   color: #606060;
 }
-.link_developers {
+.link_about {
   flex-grow: 0;
   margin: 2.7% 2.3% 2.7% 0;
   font-family: MangoDdobak-L;
@@ -126,11 +138,27 @@ main {
   text-align: right;
   color: #fff;
 }
+.victory_message{
+  font-family: MangoDdobak-L;
+  font-size: 4rem;
+  text-align: right;
+  margin: 7% 0 0 4.2%;
+  color: #fff;
+}
+.timer{
+  width: 24.5%;
+  height: 27%;
+  margin:  6% 0 0 13.5%;
+  text-align: center;
+  border-radius: 20px;
+  border: solid 1px #000;
+  background-color: #fff;
+}
 .Rectangle-1 {
   width: 45.1%;
   flex-grow: 0;
   padding-bottom: 1.8%;
-  margin: 3.1% 61.6% 3.8% 3.3%;
+  margin: 3.1% 0% 3.8% 3.3%;
   border-radius: 20px;
   border: solid 1px #000;
   background-color: #fff;
@@ -250,4 +278,111 @@ main {
   letter-spacing: normal;
   text-align: center;
   color: #000;
+}
+.Rectangle-28 {
+  width: 58%;
+  height: 16%;
+  flex-grow: 0;
+  margin: 0 15% 1% 21%;
+  padding: 1% 0 1.5%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+hr{
+  margin: 0 0 1% 0;
+}
+.about_title {
+  width: 29.1%;
+  height: 24.8%;
+  flex-grow: 0;
+  margin: 13.5% 0 9.6% 36.5%;
+  font-family: MangoDdobak-B;
+  font-size: 2rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.about_text1 {
+  width: 100%;
+  height: 39.1%;
+  flex-grow: 0;
+  margin: 0 0 0 17%;
+  font-family: MangoDdobak-L;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.about_text2 {
+  width: 100%;
+  height: 39.1%;
+  flex-grow: 0;
+  margin: 0 0 0 13.5%;
+  font-family: MangoDdobak-L;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.row-profile {
+  padding: 1% 0 1% 10%;
+  display: flex;
+  flex-direction: row;
+}
+.DEV-TEAM {
+  width: 18.5%;
+  height: 5.3%;
+  font-family: MangoDdobak-L;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 0 0 41%;
+  color: #fff;
+}
+.DESIGN-TEAM {
+  width: 18.5%;
+  height: 5.3%;
+  font-family: MangoDdobak-L;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 0 0 38.5%;
+  color: #fff;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7); /* 회색 배경 */
+  padding: 2%; /* %로 변경 */
+  width: 39%; /* 컨테이너 너비 설정 */
+  margin: 0 0 0 1%; /* 가운데 정렬 */
+  border-radius: 20px;
+}
+
+.profile-image {
+  width: 40%; /* %로 변경 */
+  margin-right: 5%; /* %로 변경 */
+}
+.profile-text {
+  font-family: MangoDdobak-L;
+  text-align: center;
+  width: 80%; /* 텍스트 영역 너비 설정 */
+}
+.profile-text h2 {
+  font-family: MangoDdobak-L;
+  margin-bottom: 1%; /* %로 변경 */
+  text-align: center;
+}
+.nickname{
+  margin: 0 0 0 0;
 }
