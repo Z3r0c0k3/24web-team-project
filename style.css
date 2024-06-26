@@ -249,7 +249,7 @@ main {
   flex-grow: 0;
   background-color: #000;
 }
-.CSAT-2025-text {
+.CSAT-text {
   width: 100%;
   height: 15.6%;
   flex-grow: 0;
@@ -264,7 +264,7 @@ main {
   text-align: center;
   color: #000;
 }
-.D-Day-2025 {
+.D-Day-2025, .D-Day-2026, .D-Day-2027, .D-Day-3mo, .D-Day-6mo, .D-Day-9mo {
   width: 88.2%;
   height: 40%;
   flex-grow: 0;
