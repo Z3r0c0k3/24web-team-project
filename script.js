@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => { // 문서 로드 후 실�
         const seconds = Math.max(0, Math.floor((timeDifference % (1000 * 60)) / 1000));
         const milliseconds = Math.max(0, timeDifference % 1000);
 
-        const formattedDday = `${days.toString().padStart(3, '0')} : ${hours.toString().padStart(2, '0')} : ${minutes.toString().padStart(2, '0')} : ${seconds.toString().padStart(2, '0')} . ${milliseconds.toString().padStart(2, '0')}`;
+        const formattedDday = `${days.toString().padStart(3, '0')}일 | ${hours.toString().padStart(2, '0')} : ${minutes.toString().padStart(2, '0')} : ${seconds.toString().padStart(2, '0')} . ${milliseconds.toString().padStart(2, '0')}`;
 
         ddaySpan.innerText = formattedDday; 
     });

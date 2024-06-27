@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     option7: 70, // 영어
     option8: 30, // 한국사
     option9: 30, // 탐구1
-    option10: 0.1, // 탐구2
+    option10: 30, // 탐구2
   };
 
   // 타이머 업데이트 함수
