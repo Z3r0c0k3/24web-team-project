@@ -43,7 +43,9 @@
             );
             const milliseconds = Math.max(0, timeDifference % 1000);
 
-            const formattedDday = `${days.toString().padStart(3, "0")} : ${hours
+            const formattedDday = `${days
+              .toString()
+              .padStart(3, "0")}일 | ${hours
               .toString()
               .padStart(2, "0")} : ${minutes
               .toString()
